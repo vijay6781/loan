@@ -98,10 +98,6 @@ ul{
   transition: background-color 2s ease-out;
 }
 
-.full{
-background-color: #007bffe7;
-}
-
 .alert{
   text-align: center;
   padding:10px;
