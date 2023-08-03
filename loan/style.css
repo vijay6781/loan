@@ -3,7 +3,7 @@
 }
 
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #0af1bb);
+	background: linear-gradient(-45deg, #FF0081, #FF0081, #FF0081, #0af1bb);
 	background-size: 700% 700%;
 	animation: gradient 5s ease infinite;
 }
@@ -128,7 +128,7 @@ ul{
 
 
 footer {
-  background-color: #0cee9ff0;
+  background-color: #00FFFF;
   color: #fff;
   padding: 30px 0;
 }
