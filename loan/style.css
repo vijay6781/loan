@@ -69,6 +69,10 @@ ul{
   grid-template-columns: 1fr 1fr;
   grid-gap:20px;
 }
+#name,#email,#phone,#company,#loan,#submitbutton{
+  height: 50px;
+  border-radius: 40px
+}
 
 .contact form label{
   display:block;
