@@ -71,7 +71,7 @@ ul{
 }
 #name,#email,#phone,#company,#loan,#submitbutton{
   height: 50px;
-  border-radius: 40px
+  border-radius: 30px
 }
 
 .contact form label{
