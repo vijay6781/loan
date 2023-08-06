@@ -1,26 +1,43 @@
-/* body {
+body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: rgb(231, 236, 236);
-} */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  /* Add any additional styling for the left side content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  margin-left:0px;
   box-sizing: border-box;
-  position: relative;
 }
 
 .card {
   flex: 0 0 320px;
   padding: 20px;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 25px;
   background-image: linear-gradient(45deg, #f20808, #05f231); /* Red to Yellow metallic gradient */
   color: white;
   text-align: center;
@@ -36,7 +53,7 @@
   color: #fff;
   padding: 10px 20px;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   cursor: pointer;
 }
 
@@ -46,7 +63,26 @@
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-container {
+    padding: 10px;
+  }
+
   .card {
     flex-basis: calc(100% - 20px);
+    /* Remove the left margin for cards on mobile */
+    margin-left: 0;
+  }
+}
+
+/* Media query for larger screens (desktop) */
+@media (min-width: 769px) {
+  .card {
+    /* Apply left margin only on desktop screens */
+    margin-left: 150px;
   }
 }
