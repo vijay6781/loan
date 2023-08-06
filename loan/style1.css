@@ -202,6 +202,12 @@ footer {
 /* Hide the footer in desktop view */
 @media (min-width: 769px) {
   .footer {
-    display: none;
+    display: flex;
+    margin-left:250px;
+
+  }
+  .leftfooter{
+    margin-left:50px
+    
   }
 }
