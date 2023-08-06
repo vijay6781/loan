@@ -276,5 +276,25 @@ p {
   font-family: 'Libre Baskerville', serif;
 }
 
+.autocomplete-options {
+  position: right;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 1px solid #ccc;
+  border-radius:20px;
+  background-color: #fff;
+  display: none;
+  max-height: 150px;
+  overflow-y: auto;
+}
 
+.autocomplete-options div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.autocomplete-options div:hover {
+  background-color: #f1f1f1;
+}
 
