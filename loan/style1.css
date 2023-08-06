@@ -37,7 +37,7 @@ body {
   flex: 0 0 320px;
   padding: 20px;
   margin: 10px;
-  border-radius: 25px;
+  border-radius: 30px;
   background-image: linear-gradient(45deg, #f20808, #05f231); /* Red to Yellow metallic gradient */
   color: white;
   text-align: center;
