@@ -285,9 +285,10 @@ p {
   border-radius:20px;
   background-color: #fff;
   display: none;
+  width: 200px;
   max-height: 150px;
-  max-width: 150px;
   overflow-y: auto;
+  overflow-x: auto;
 }
 
 .autocomplete-options div {
