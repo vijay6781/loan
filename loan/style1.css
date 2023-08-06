@@ -38,7 +38,7 @@ body {
   padding: 20px;
   margin: 10px;
   border-radius: 30px;
-  background-image: linear-gradient(45deg, #f20808, #05f231); /* Red to Yellow metallic gradient */
+  background-image: linear-gradient(45deg, rgb(241, 6, 45), #05f231); /* Red to Yellow metallic gradient */
   color: white;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -49,7 +49,7 @@ body {
 }
 
 .apply-btn {
-  background-image: linear-gradient(45deg, #08f256, #f20808); 
+  background-image: linear-gradient(45deg, #08f256, rgb(241, 6, 45)); 
   color: #fff;
   padding: 10px 40px;
   border: none;
