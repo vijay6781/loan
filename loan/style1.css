@@ -19,6 +19,7 @@ body{
     padding: 30px;
     border-radius:30px;
     width: 260px;
+    margin:5px;
     margin-left: 50px; /* Adjust the card margin as needed */
     /* Use linear-gradient with metallic dark colors for the card background */
     background-image: linear-gradient(to right, pink, green);
