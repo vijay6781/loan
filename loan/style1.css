@@ -11,13 +11,15 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  margin-left: 280px;
   box-sizing: border-box;
 }
 
 .card {
   flex: 0 0 320px;
   padding: 20px;
-  margin: 10px;
+  margin-left:15px;
+  margin: 5px;
   border-radius: 15px;
   background-image: linear-gradient(45deg, #f20808, #05f231); /* Red to Yellow metallic gradient */
   color: white;
@@ -30,7 +32,7 @@ body {
 }
 
 .apply-btn {
-  background-color: #f71476;
+  background-image: linear-gradient(45deg, #08f256, #fd0d0d); 
   color: #fff;
   padding: 10px 20px;
   border: none;
