@@ -1,0 +1,46 @@
+.card-container {
+    margin-left: 160px;
+    margin-right:5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; /* Center-align the cards horizontally */
+    align-items: center; /* Center-align the cards vertically */
+    padding: 120px;
+    height: 0vh; /* Set the card container height to full viewport height */
+    /* box-sizing: border-box; */
+    margin-top: 0px; /* Include padding in the total height calculation */
+  }
+  
+  
+  .card {
+    padding: 30px;
+    border-radius:30px;
+    width: 260px;
+    margin-left: 50px; /* Adjust the card margin as needed */
+    /* Use linear-gradient with metallic dark colors for the card background */
+    background-image: linear-gradient(to right, pink, green);
+    color: white; /* Set text color to white */
+    text-align: center; /* Center-align the text inside the card */
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .apply-btn {
+    background-color: #14a6f7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-btn:hover {
+    background-color: #0c80d1;
+  }
+  
+  
+  
+  
+  
