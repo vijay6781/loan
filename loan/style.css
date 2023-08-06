@@ -298,3 +298,42 @@ p {
   background-color: #f1f1f1;
 }
 
+
+/* card */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  margin-bottom: 20px;
+  /* Use linear-gradient to create a horizontal gradient from pink to green */
+  background-image: linear-gradient(to right, pink, green);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.apply-btn {
+  background-color: #14a6f7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background-color: #0c80d1;
+}
+
+
+
+
