@@ -18,7 +18,7 @@ body {
 .card {
   flex: 0 0 320px;
   padding: 20px;
-  margin-left:10px;
+  margin-left:5px;
   border-radius: 15px;
   background-image: linear-gradient(45deg, #f20808, #05f231); /* Red to Yellow metallic gradient */
   color: white;
