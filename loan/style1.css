@@ -1,50 +1,50 @@
-body{
-    background-color:rgb(231, 236, 236);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(231, 236, 236);
 }
+
 .card-container {
-    margin-left: 160px;
-    margin-right:5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center-align the cards horizontally */
-    align-items: center; /* Center-align the cards vertically */
-    padding: 120px;
-    height: 10vh; /* Set the card container height to full viewport height */
-    box-sizing: border-box;
-    
-  }
-  
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  flex: 0 0 320px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  background-image: linear-gradient(45deg, #f20808, #05f231); /* Red to Yellow metallic gradient */
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.apply-btn {
+  background-color: #f71476;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background-color: #0c80d1;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
   .card {
-    padding: 30px;
-    border-radius:30px;
-    width: 260px;
-    margin:5px;
-    margin-left: 50px; /* Adjust the card margin as needed */
-    /* Use linear-gradient with metallic dark colors for the card background */
-    background-image: linear-gradient(to right, pink, green);
-    color: white; /* Set text color to white */
-    text-align: center; /* Center-align the text inside the card */
+    flex-basis: calc(100% - 20px);
   }
-  
-  .card h2 {
-    margin-top: 0;
-  }
-  
-  .apply-btn {
-    background-color: #14a6f7;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .apply-btn:hover {
-    background-color: #0c80d1;
-  }
-  
-  
-  
-  
-  
+}
