@@ -34,7 +34,7 @@ body {
 }
 
 .card {
-  flex: 0 0 320px;
+  flex: 0 0 300px;
   padding: 20px;
   margin: 10px;
   border-radius: 30px;
@@ -51,7 +51,7 @@ body {
 .apply-btn {
   background-image: linear-gradient(45deg, #08f256, #fd0d0d); 
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 40px;
   border: none;
   border-radius: 15px;
   cursor: pointer;
@@ -85,4 +85,17 @@ body {
     /* Apply left margin only on desktop screens */
     margin-left: 150px;
   }
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Libre Baskerville', serif;
 }
