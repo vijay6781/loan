@@ -99,3 +99,109 @@ h1, h2, h3 {
 p {
   font-family: 'Libre Baskerville', serif;
 }
+
+
+
+
+
+/* Add your existing CSS styles here */
+
+/* Add your existing CSS styles here */
+
+/* Media query for smaller screens (mobile) */
+
+
+footer {
+  background-image: linear-gradient(45deg, #0ee0e0, #141615); 
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-content h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons .icon {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons .icon:last-child {
+  margin-right: 0;
+}
+
+.social-icons .icon:hover {
+  color: #007bff;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-container {
+    padding: 10px;
+  }
+
+  .card {
+    flex-basis: calc(100% - 20px);
+    /* Remove the left margin for cards on mobile */
+    margin-left: 0;
+  }
+
+  /* Move the footer above the content in mobile view */
+  .footer {
+    background-color: #0c80d1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+/* Hide the footer in desktop view */
+@media (min-width: 769px) {
+  .footer {
+    display: none;
+  }
+}
